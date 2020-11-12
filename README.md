@@ -8,9 +8,9 @@ We want to write a Java program that prints the numbers from 1 to 100 to the "st
 
 We want our Java program to print numbers from 1 to 105 and apply these additional rules.
 
-   -For multiples of 7 it prints Bang instead of the number.
-   -For numbers which are multiples of both 3 and 7 it prints FizzBang.
-   -For numbers which are multiples of both 5 and 7 it prints BuzzBang.
-   -For numbers which are multiples of 3, 5 and 7 it prints FizzBuzzBang.
+   - For multiples of 7 it prints Bang instead of the number.
+   - For numbers which are multiples of both 3 and 7 it prints FizzBang.
+   - For numbers which are multiples of both 5 and 7 it prints BuzzBang.
+   - For numbers which are multiples of 3, 5 and 7 it prints FizzBuzzBang.
 
 Creator: Davide Michielin
