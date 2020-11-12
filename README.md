@@ -13,3 +13,4 @@ We want our Java program to print numbers from 1 to 105 and apply these addition
    -For numbers which are multiples of both 5 and 7 it prints BuzzBang.
    -For numbers which are multiples of 3, 5 and 7 it prints FizzBuzzBang.
 
+Creator: Davide Michielin
