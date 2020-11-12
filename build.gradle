@@ -2,7 +2,7 @@ plugins {
     id 'application'
 }
 
-group 'org.example'
+group 'it.units.esSDM'
 version '1.0-SNAPSHOT'
 
 repositories {
