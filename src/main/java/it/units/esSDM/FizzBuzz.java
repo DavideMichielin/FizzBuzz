@@ -6,7 +6,8 @@ public class FizzBuzz {
         System.out.println();
         fizzBuzzExtended();
     }
-    static void fizzBuzzNormal(){
+
+    static void fizzBuzzNormal() {
         for (int i = 1; i < 100; i++) {
             String test = "";
             test += (i % 3) == 0 ? "fizz" : "";
@@ -14,18 +15,12 @@ public class FizzBuzz {
             System.out.println(!test.isEmpty() ? test : i);
         }
     }
-    public String convert(int number){
-        if (number == 1) {
-            return "1";
-        } else if(number == 2){
-            return "2";
-        } else{
-            return "40";
-        }
 
-
+    public String convert(int number) {
+        return Integer.toString(number);
     }
-    static void fizzBuzzExtended(){
+
+    static void fizzBuzzExtended() {
         for (int i = 1; i < 105; i++) {
             String test = "";
             test += (i % 3) == 0 ? "fizz" : "";
