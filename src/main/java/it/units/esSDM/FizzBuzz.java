@@ -14,6 +14,9 @@ public class FizzBuzz {
             System.out.println(!test.isEmpty() ? test : i);
         }
     }
+    public String convert(int number){
+        return "1";
+    }
     static void fizzBuzzExtended(){
         for (int i = 1; i < 105; i++) {
             String test = "";

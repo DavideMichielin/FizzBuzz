@@ -10,9 +10,13 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation(platform('org.junit:junit-bom:5.6.2'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
 }
 
+test{
+    useJUnitPlatform()
+}
 application {
     mainClass = 'it.units.esSDM.FizzBuzz'
 }
