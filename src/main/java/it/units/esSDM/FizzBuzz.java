@@ -15,7 +15,12 @@ public class FizzBuzz {
         }
     }
     public String convert(int number){
-        return "1";
+        if (number == 1) {
+            return "1";
+        } else{
+            return "2";
+        }
+
     }
     static void fizzBuzzExtended(){
         for (int i = 1; i < 105; i++) {
